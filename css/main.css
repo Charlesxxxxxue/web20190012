@@ -1,0 +1,109 @@
+@charset 'utf-8';
+
+body{
+	background-color: purple;
+}
+header{
+	text-align: center;
+	font-size: 70px;
+	font-family: 楷体;
+	font-weight: bolder;
+}
+h1{
+	text-align: center;
+	font-family: 方正姚体,黑体,宋体;
+	font-size: 20px;
+	font-weight: bold;
+	color: darkorange;
+}
+h2{
+	font-family: 黑体;
+	font-size: 16px;
+	font-weight: normal;
+	color:#099;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	background-color: rgba(0,0,0,0.5);
+	
+}
+p{
+	line-height: 2em;
+}
+.aaa{
+	font-size: 50px;
+	text-align: center;
+	text-shadow: -2.5px -2.5px blue, 2.5px 2.5px #333;
+}
+.nav{
+	float:inherit;
+	background-color: #9F0;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	font-size: 18px;
+}
+.copyright{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.tri{
+	width:0px;
+	height: 0px;
+	margin: 2px 10px;
+	border: 10px solid #FF0000;
+	border-bottom: none;
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+
+#box{
+	min-height: 700px;
+		background-color: lightpink;
+}
+
+
+		#jinglingtu.pictures span{
+			font-weight:bold;
+			color:#666;}
+			li.hot span{
+				margin-right:10px;
+				color:red;}
+.container{
+	background-color: lightpink;
+	font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
+	height: 150px;
+	line-height: 150px;
+	font-size: 80px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	text-shadow: 0 0 4px white,0 -5px 6px #FFE500,2px -10px 6px #FFCC00,-2px -15px 11px #FFCC00,2px -25px 18px #FF8000;
+}
+.ddd{
+	text-align: center;
+	text-shadow: 0 0 5px red;
+	line-height: 20px;
+	font-size: 20px;
+}
+.eee{
+	box-shadow: -10px 0px 10px red,
+		10px 0 10px yellow,
+		0 -10px 10px blue,
+		0 10px 10px green;
+	text-align: center;
+	color:darkviolet;
+	font-size: 50px;
+}
+#e{
+	margin: 0 100;
+	padding: 0 100;
+}
+.float{
+	float: left;
+
+}
+

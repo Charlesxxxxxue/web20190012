@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	color: gold;
+	background-color: purple;
+}
+a{
+	text-shadow: 2px 2px 0 gold;
+	color: white;
+	text-decoration: none;
+}
+h2{
+	text-align: center;
+}
+header{
+	text-align: center;
+	font-size: 100px;
+	font-family: times new roman;
+	font-weight: bolder;
+	color: gold;
+}
+nav{
+	text-align: center;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	
+}
+#box1{
+	position: relative;
+	margin-top: 30px;
+	height: 360px;
+}
+#img1{position: absolute;
+		bottom: -250;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+table{
+	text-align:center;
+}
+#box2{
+	margin: auto;
+	width: 1000px;
+}
+td{
+	width:200px;
+	font-size: 25px;
+	font-family: 楷体;
+	
+}
+table{
+	margin: auto;
+}
+a:hover{
+	background-color: rgba(0,0,0,0.5);
+	
+}
+footer{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 10px;
+}
+summary{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-family: times new roman;
+}
